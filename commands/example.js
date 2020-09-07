@@ -4,13 +4,13 @@ module.exports =
     // These areas are the 'attributes' or 'properties' of this command.  You can add/remove as many as you want!
     // Unrequired fields are marked with an * in the comment.
 
-    name: 'dice',
+    name: 'example',
     // The name of the command.
 
-    description: 'Roll a dice.  Ex. >dice 1d20',
+    description: 'An example command.',
     // *The command's description.
 
-    example: 'dice 1d20',
+    example: 'example',
     // *An example of how to execute it.
 
     execute(message, args)
